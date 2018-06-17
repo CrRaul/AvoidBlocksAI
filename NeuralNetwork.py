@@ -2,7 +2,9 @@
 from Matrix import Matrix
 import numpy as np
 
+
 def sigmoid(x):
+    #the sigmoid function did not work...
     return .5 * (1 + np.tanh(.5 * x))
 
 class NeuralNetwork():
